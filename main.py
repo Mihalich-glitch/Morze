@@ -35,7 +35,7 @@ def morze_to_rus():
             print('Ошибка. Вы ввели неверный символ')
 
     for element in db:
-        print(element)
+        print(element, end='')
 
 morze_dict = {
     'а': '.-',
